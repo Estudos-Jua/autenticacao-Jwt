@@ -1,0 +1,141 @@
+# ============================
+# Arquivos de compilação Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ============================
+# Ambientes virtuais
+# ============================
+.venv/
+venv/
+ENV/
+env/
+.env/
+env.bak/
+
+# ============================
+# Arquivos de configuração
+# ============================
+*.env
+.env.* 
+*.ini
+*.toml
+*.cfg
+
+# ============================
+# Saída de build
+# ============================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================
+# Arquivos temporários
+# ============================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ============================
+# Cache de pacotes e testes
+# ============================
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ============================
+# Jupyter Notebook
+# ============================
+.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# ============================
+# Traduções
+# ============================
+*.mo
+*.pot
+
+# ============================
+# Django
+# ============================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# ============================
+# Flask
+# ============================
+instance/
+.webassets-cache
+
+# ============================
+# Scrapy
+# ============================
+.scrapy
+
+# ============================
+# Sphinx
+# ============================
+docs/_build/
+
+# ============================
+# PyBuilder
+# ============================
+target/
+
+# ============================
+# IDEs e editores
+# ============================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ============================
+# MyPy e Pyre
+# ============================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# ============================
+# Pytype
+# ============================
+.pytype/
+
+# ============================
+# Cython
+# ============================
+*.c
+*.cpp
