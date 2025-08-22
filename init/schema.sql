@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS 'users' (
+    id INTERGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL,
+    password TEXT NOT NULL,
+    balance FLOAT NOT NULL,
+);
